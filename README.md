@@ -1,6 +1,4 @@
-# Theatre
-
-Projet : Gestion de plan de pièces de théâtres (fait en compagnie de Hugo FERNANDES TELES & Thomas LEJEUNE)
+# Projet : Gestion de plan de pièces de théâtres (fait en compagnie de Hugo FERNANDES TELES & Thomas LEJEUNE)
 
 Ce projet a pour but de traiter une pièce de théâtre qu’on pourra mettre en entrée et gérer les répétitions. Cette pièce de théâtre est composée d’actes, eux-mêmes composés de scènes qui contiennent des répliques.
 Ce que fait notre programme : Le programme mène à la répartition des rôles à des acteurs en fonction des scènes et des actes de la pièce pour qu’ils puissent répéter leurs rôles. Chaque rôle a ses propres répliques. De plus, il faut prendre en compte la contrainte des acteurs (qu’on aura saisi aussi). En effet, si à une certaine date, l’acteur n’est pas disponible alors il ne pourra pas répéter, donc la scène dans laquelle il interprète devra être jouée un autre jour. 
