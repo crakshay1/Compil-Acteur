@@ -1,0 +1,7 @@
+Sur le Shell: 
+
+cd ProjetX/Model 
+java Gestion.java 
+
+test.txt est un fichier txt simulant une pièce de théâtre. 
+Chemin d'accès: Pieces/test.txt
