@@ -13,7 +13,7 @@ Le programme principal offre un menu (géré par Gestion.java) à l’écran qui
 5. Quitter  
   
 ## Diagramme du projet montrant les liens entre toutes les classes et leurs attributs qu’on a créés. 
-
+![alt text](http://url/to/img.png)
   
 ## Méthodes principales du programme 
 Il faut noter que Compagnie.java est notre classe contenant la majorité des méthodes modelant ce programme. En effet, voici une liste de ces méthodes et leur fonctionnement :  
@@ -52,8 +52,8 @@ Traite un texte de théâtre pour extraire les informations d'actes, de scènes 
   
 ## Autres points concernant le programme
 Même si Compagnie.java reste la classe de référence pour nos méthodes, nous avons laissé certaines méthodes propres à leurs classes telles que les trois méthodes ci-dessous dans Repetition.java:  
-choixjour: Choix du jour de répétition en fonction des disponibilités des acteurs.   
-choix_rep_scene: Imposition des jours de répétition en fonction des disponibilités des acteurs. fixer_dates: Fixation des dates de répétition pour chaque occurrence des jours sélectionnés.   
+***choixjour:*** Choix du jour de répétition en fonction des disponibilités des acteurs.   
+***choix_rep_scene:*** Imposition des jours de répétition en fonction des disponibilités des acteurs. fixer_dates: Fixation des dates de répétition pour chaque occurrence des jours sélectionnés.   
 De plus, Gestion.java est un fichier spécialement pour notre menu où on fait appel aux sous options des menus, avec les méthodes qui vont avec.  
 
 ## Conclusion 
