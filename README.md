@@ -13,7 +13,7 @@ Le programme principal offre un menu (géré par Gestion.java) à l’écran qui
 5. Quitter  
   
 ## Diagramme du projet montrant les liens entre toutes les classes et leurs attributs qu’on a créés. 
-![alt text](http://url/to/img.png)
+![alt text](http://url/to/diagramme.jpg)
   
 ## Méthodes principales du programme 
 Il faut noter que Compagnie.java est notre classe contenant la majorité des méthodes modelant ce programme. En effet, voici une liste de ces méthodes et leur fonctionnement :  
