@@ -12,26 +12,43 @@ Le programme principal offre un menu (géré par Gestion.java) à l’écran qui
 4. Fonctionnalités liées aux répétitions
 5. Quitter  
   
-## Diagramme du projet montrant les liens entre toutes les classes et leurs attributs qu’on a créés.
+## Diagramme du projet montrant les liens entre toutes les classes et leurs attributs qu’on a créés. 
+
   
 ## Méthodes principales du programme 
 Il faut noter que Compagnie.java est notre classe contenant la majorité des méthodes modelant ce programme. En effet, voici une liste de ces méthodes et leur fonctionnement :  
-•	***ajoutActeur(Acteur a):***  Ajoute un acteur à la liste des acteurs de la compagnie.  
-•	***ajoutPiece(Piece p):***  Ajoute une pièce à la liste des pièces de la compagnie.  
-•	***genid(Vector<Acteur> listeActeur):***  Génère un identifiant unique pour un acteur.  
-•	***genid_r(Vector<Repetition> listeRep):***  Génère un identifiant unique pour une répétition.  
-•	***getPieceByTitle(String title):***  Récupère une pièce par son titre.  
-•	***getActeByNum(int num, Piece p):***  Récupère un acte par son numéro et sa pièce associée.  
-•	***getSceneByNum(int num, Acte a):***  Récupère une scène par son numéro et son acte associé.  
-•	***getActorIdByRole(Role r):***  Récupère l'identifiant d'un acteur par son rôle.  
-•	***getActeurById(int a):***  Récupère un acteur par son identifiant.  
-•	***getRoleByName(String name, Piece piece):***  Récupère un rôle par son nom et sa pièce associée.  
-•	***getActeurByName(String nom):***  Récupère une liste d'acteurs par leur nom.  
-•	***ajouter_role(int a, String p, String r):***  Ajoute un rôle à un acteur pour une pièce donnée.  
-•	***removeSceneActe(Piece p, Acte a, Scene s):***  Supprime une scène d'un acte donné dans une pièce donnée.  
-•	***addJour(int a):***  Ajoute les jours de la semaine où un acteur est disponible.  
-•	***removeJour(int a):***  Enlève les jours de la semaine où un acteur est disponible.  
-•	***traitementTexte(File fichier, Piece piece):***  Traite un texte de théâtre pour extraire les informations d'actes, de scènes et de répliques.  
+•	***ajoutActeur(Acteur a):***  
+Ajoute un acteur à la liste des acteurs de la compagnie.  
+•	***ajoutPiece(Piece p):***  
+Ajoute une pièce à la liste des pièces de la compagnie.  
+•	***genid(Vector<Acteur> listeActeur):***  
+Génère un identifiant unique pour un acteur.  
+•	***genid_r(Vector<Repetition> listeRep):***  
+Génère un identifiant unique pour une répétition.  
+•	***getPieceByTitle(String title):***  
+Récupère une pièce par son titre.  
+•	***getActeByNum(int num, Piece p):***  
+Récupère un acte par son numéro et sa pièce associée.  
+•	***getSceneByNum(int num, Acte a):***  
+Récupère une scène par son numéro et son acte associé.  
+•	***getActorIdByRole(Role r):***  
+Récupère l'identifiant d'un acteur par son rôle.  
+•	***getActeurById(int a):***  
+Récupère un acteur par son identifiant.  
+•	***getRoleByName(String name, Piece piece):***  
+Récupère un rôle par son nom et sa pièce associée.  
+•	***getActeurByName(String nom):***  
+Récupère une liste d'acteurs par leur nom.  
+•	***ajouter_role(int a, String p, String r):***  
+Ajoute un rôle à un acteur pour une pièce donnée.  
+•	***removeSceneActe(Piece p, Acte a, Scene s):***  
+Supprime une scène d'un acte donné dans une pièce donnée.  
+•	***addJour(int a):***  
+Ajoute les jours de la semaine où un acteur est disponible.  
+•	***removeJour(int a):***  
+Enlève les jours de la semaine où un acteur est disponible.  
+•	***traitementTexte(File fichier, Piece piece):***  
+Traite un texte de théâtre pour extraire les informations d'actes, de scènes et de répliques.  
   
 ## Autres points concernant le programme
 Même si Compagnie.java reste la classe de référence pour nos méthodes, nous avons laissé certaines méthodes propres à leurs classes telles que les trois méthodes ci-dessous dans Repetition.java:  
