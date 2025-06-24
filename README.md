@@ -1,4 +1,5 @@
-# Projet : Gestion de plan de pièces de théâtres (fait en compagnie de Hugo FERNANDES TELES & Thomas LEJEUNE)
+# Compil-Acteur : Gestion de plan de pièces de théâtres
+#### Réalisé avec Hugo FERNANDES TELES & Thomas LEJEUNE
 
 Ce projet a pour but de traiter une pièce de théâtre qu’on pourra mettre en entrée et gérer les répétitions. Cette pièce de théâtre est composée d’actes, eux-mêmes composés de scènes qui contiennent des répliques.  
   
